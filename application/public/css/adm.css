@@ -1,0 +1,174 @@
+h2.title span.count {
+    color: #d33;
+    font-weight: 900;
+}
+
+a.to_main {
+    position: relative !important;
+}
+
+.block_info {
+    position: relative;
+    text-align: right;
+}
+
+.block_info span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.block-win {
+    padding-bottom: 40px;
+}
+
+.block-win a.button1,
+.block-win input[type="submit"].button1 {
+    padding: 7px 15px;
+    margin: auto 28%;
+    width: 40%;
+}
+
+.block-win a.button1 {
+    padding: 9px 18px;
+}
+
+.table {
+    width: 96%;
+    background-color: #fff;
+    margin: 3px 2%;
+    padding: 3px 10px;
+    border: 1px solid #082957;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.table .row {
+    border-bottom: 1px solid #0565e8;
+    min-height: 20px;
+    margin: 3px 10px;
+}
+
+.table .row:last-child {
+    border-bottom: none;
+}
+
+.table .row .td {
+    text-align: center;
+    padding: 3px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    width: 7%;
+    border-left: 1px solid #00f;
+    margin-bottom: 5px;
+}
+
+.table .row .td:nth-child(1) {
+    border-left: none;
+}
+
+.table_content {
+    font-size: 13px;
+}
+
+.table_content img.icon {
+    height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.table .res_ok,
+.table .res_data,
+.table .res_proc,
+.table .res_canc,
+.table .pay_y,
+.table .pay_n {
+    border-radius: 5px;
+    padding: 2px 3px;
+}
+
+.table .res_ok,
+.table .pay_y {
+    background-color: #3d3;
+}
+
+.table .res_data,
+.table .pay_n {
+    background-color: #d33;
+}
+
+.table .res_proc {
+    background-color: #dd3;
+}
+
+.table .res_canc {
+    background-color: #888;
+}
+
+@media all and (max-width: 1200px) {
+    div.container {
+        position: relative;
+        max-width: 99% !important;
+    }
+
+}
+
+@media all and (max-width: 1060px) {
+    .block-win input[type="date"] {
+        padding: 5px;
+    }
+
+    .block-win .table {
+        min-width: 1000px;
+        width: 1000px;
+    }
+
+    .block-win {
+        overflow-x: auto;
+    }
+}
+
+@media all and (max-width: 920px) {
+
+    .block-win a.button1,
+    .block-win input[type="submit"].button1 {
+        width: 80%;
+        margin: 2%;
+    }
+
+    h2.title {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .block-win input {
+        padding: 0px;
+        width: 115px !important;
+    }
+
+    header a.to_main,
+    header .block_info span {
+        font-size: 15px;
+    }
+
+    header img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .block-win input {
+        padding: 0px;
+        width: auto !important;
+    }
+}
+
+@media all and (max-width: 550px) {
+
+    .block-win input,
+    .block-win label,
+    span.sort,
+    span.title {
+        font-size: 13px;
+    }
+}

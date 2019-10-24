@@ -1,0 +1,143 @@
+.block_info span {
+    position: relative;
+    top: -10px;
+    color: #fff;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.block-win {
+    padding: 50px 15px;
+}
+
+.block-win .row:nth-child(1) {
+    margin: auto 35px;
+}
+
+.block-win .row:last-child {
+    margin-top: 20px;
+}
+
+.rest {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #082957;
+    margin-left: 15px;
+}
+
+.rest table {
+    width: 100%;
+    position: relative;
+}
+
+.rest table .row {
+    margin: 0px !important;
+}
+
+.rest .icons {
+    z-index: 100;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    height: 20px;
+    width: 40px;
+    overflow: hidden;
+}
+
+.icons img {
+    height: 16px;
+}
+
+.icons img:hover {
+    cursor: pointer;
+}
+
+a.button2 {
+    position: relative;
+    top: 10px;
+}
+
+@media all and (max-width: 1200px) {
+    div.container {
+        position: relative;
+        max-width: 99% !important;
+    }
+
+    .block-win {
+        width: 100% !important;
+    }
+
+}
+
+@media all and (max-width: 1060px) {
+    .block-win input[type="date"] {
+        padding: 5px;
+    }
+
+    .block-win .table {
+        width: 1000px;
+    }
+
+    .block-win {
+        overflow-x: auto;
+    }
+}
+@media all and (max-width: 990px) {
+    .block-win .rest,
+    .block-win .rest {
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 920px) {
+
+    .block-win a.button1,
+    .block-win input[type="submit"].button1 {
+        width: auto;
+        margin: 2%;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .block-win input {
+        padding: 0px;
+        width: 115px !important;
+    }
+
+    header a.to_main,
+    header .block_info span {
+        font-size: 15px;
+    }
+
+    header img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .block-win input {
+        padding: 0px;
+        width: auto !important;
+    }
+    footer .button2{
+        visibility: hidden;
+    }
+}
+
+@media all and (max-width: 550px) {
+
+    .block-win input,
+    .block-win label,
+    span.sort,
+    span.title {
+        font-size: 13px;
+    }
+}

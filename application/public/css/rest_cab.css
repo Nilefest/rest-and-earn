@@ -1,0 +1,76 @@
+.content {
+    min-height: 70vh;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.table {
+    margin: 50px;
+}
+
+.table .row .td span {
+    max-height: 135px;
+    text-align: center;
+}
+
+
+.table .row .td:nth-child(1),
+.table .row .td:nth-child(8),
+.table .row .td:nth-child(9),
+.table .row .td:nth-child(10) {
+    width: 4%;
+}
+
+.table .row .td:nth-child(8) span,
+.table .row .td:nth-child(9) span,
+.table .row .td:nth-child(10) span {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: tb-rl;
+}
+
+.table .row .td:nth-child(2),
+.table .row .td:nth-child(4),
+.table .row .td:nth-child(5),
+.table .row .td:nth-child(6),
+.table .row .td:nth-child(7) {
+    width: 10%;
+}
+
+.table .row .td:nth-child(3) {
+    width: 27%;
+}
+
+a.button1 {
+    margin-left: 40% !important;
+}
+
+a.link {
+    color: #082957;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+a.link:hover {
+    color: #2a4b79;
+}
+
+@media all and (max-width: 766px) {
+
+    .block-win a.button1 {
+        margin-left: 10% !important;
+        margin: auto;
+    }
+
+    .block-win a.link {
+        margin-bottom: 20px;
+    }
+}

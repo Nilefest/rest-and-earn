@@ -1,0 +1,127 @@
+.content {
+    min-height: 70vh;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.block-win {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    border-radius: 5px;
+    border-color: #082957;
+}
+
+label,
+input[type="text"],
+input[type="password"] {
+    margin: 10px 0px;
+}
+
+h2.title2 {
+    margin: auto auto 30px;
+}
+
+.nav .row {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.nav .row:first-child {
+    margin: 40px auto 0px;
+}
+
+.nav a {
+    font-size: 16px;
+    margin: 0px auto !important;
+    width: 100% !important;
+}
+
+.nav .info {
+    line-height: 0.5;
+    font-size: 11px;
+    position: relative;
+    top: -40px;
+}
+
+input[type="submit"].button2 {
+    border: none;
+}
+
+.balance2 {
+    display: none;
+    position: absolute;
+    width: 30%;
+    right: 20px;
+    padding: 5px;
+    min-height: 120px;
+    overflow: hidden;
+    z-index: 10000;
+}
+
+.balance2 h2.title2 {
+    font-size: 20px;
+}
+
+.balance2 a.button1 {
+    margin: 0px;
+    margin-left: 10%;
+    font-size: 15px;
+    padding: 5px 10px;
+    z-index: 10000;
+}
+
+@media all and (max-width: 1333px) {
+
+    .block-win a.button1,
+    .block-win a.button2 {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .nav {
+        padding: 25px 15px;
+    }
+
+    .nav a.button1 {
+        position: relative;
+        top: -45px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .block-win label {
+        display: none;
+    }
+
+    .block-win input {
+        padding: 5px;
+        width: 70% !important;
+    }
+
+    .balance {
+        display: none;
+    }
+
+    .balance2 {
+        display: block;
+    }
+}
+
+@media all and (max-width: 575px) {}

@@ -1,0 +1,51 @@
+.table .row .td span {
+    max-height: 140px;
+    text-align: center;
+}
+
+
+.table .row .td:nth-child(1),
+.table .row .td:nth-child(8),
+.table .row .td:nth-child(3),
+.table .row .td:nth-child(14),
+.table .row .td:nth-child(15) {
+    width: 3%;
+}
+
+.table .row .td:nth-child(2) span,
+.table .row .td:nth-child(8) span,
+.table .row .td:nth-child(9) span,
+.table .row .td:nth-child(10) span,
+.table .row .td:nth-child(11) span,
+.table .row .td:nth-child(12) span,
+.table .row .td:nth-child(13) span,
+.table .row .td:nth-child(14) span,
+.table .row .td:nth-child(15) span {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: tb-rl;
+}
+
+.table .row .td:nth-child(2),
+.table .row .td:nth-child(11),
+.table .row .td:nth-child(12) {
+    width: 5%;
+}
+
+.table .row .td:nth-child(3) {
+    width: 12%;
+}
+
+.table .row .td:nth-child(4),
+.table .row .td:nth-child(5),
+.table .row .td:nth-child(6),
+.table .row .td:nth-child(7) {
+    width: 8%;
+}
+
+.table .row .td:nth-child(9),
+.table .row .td:nth-child(10) {
+    width: 10%;
+}

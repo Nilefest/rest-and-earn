@@ -1,0 +1,79 @@
+.block-win {
+    padding: 40px 50px;
+    width: 70%;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.block-win h2.title {
+    width: 100%;
+    text-align: center;
+    color: #082957;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+
+label,
+input[type="text"] {
+    margin: 0px !important;
+    width: 100%;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    border: 1px solid #082957;
+    border-radius: 5px;
+}
+
+.block-win .row {
+    margin-bottom: 30px;
+}
+
+input[type="button"].button1 {
+    margin: 0px !important;
+}
+
+input[type="radio"] {
+    width: 30px;
+    height: 30px;
+}
+
+@media all and (max-width: 800px) {
+    .block-win input,
+    .block-win label{
+        margin-top: 15px !important;
+    }
+    .block-win input{
+        margin: 0px !important;
+    }
+}
+@media all and (max-width: 720px) {
+    div.block-win {
+        width: 100% !important;
+        padding: 30px;
+    }
+
+    label,
+    .select-wrapper,
+    .block-win input {
+        min-width: 90%;
+    }
+
+    .block-win input.button1 {
+        min-width: auto;
+        margin: 0xp !important;
+        margin-left: 0% !important;
+        margin-top: 10px !important;
+    }
+
+}

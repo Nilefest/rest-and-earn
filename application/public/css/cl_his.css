@@ -1,0 +1,56 @@
+.content {
+    min-height: 70vh;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.table {
+    margin: 50px;
+}
+
+.table .row .td span {
+    max-height: 100px;
+    text-align: center;
+}
+
+
+.table .row .td:nth-child(1),
+.table .row .td:nth-child(9),
+.table .row .td:nth-child(10),
+.table .row .td:nth-child(11) {
+    width: 4%;
+}
+
+.table .row .td:nth-child(9) span,
+.table .row .td:nth-child(10) span,
+.table .row .td:nth-child(11) span {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: tb-rl;
+}
+
+.table .row .td:nth-child(2),
+.table .row .td:nth-child(4),
+.table .row .td:nth-child(5),
+.table .row .td:nth-child(6),
+.table .row .td:nth-child(7),
+.table .row .td:nth-child(8) {
+    width: 10%;
+}
+
+.table .row .td:nth-child(3) {
+    width: 23%;
+}
+
+a.button1 {
+    margin-left: 35% !important;
+}

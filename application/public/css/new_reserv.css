@@ -1,0 +1,57 @@
+.block_info span {
+    position: relative;
+    top: -10px;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.block-win {
+    padding: 50px 100px;
+}
+
+.block-win label {
+    width: 40%;
+    font-size: 20px;
+}
+
+.col-5 label {
+    width: 100%;
+}
+
+.select-wrapper,
+.block-win input {
+    max-width: 50%;
+}
+
+.block-win label,
+.select-wrapper,
+.block-win input {
+    margin: 10px 0px;
+}
+
+@media all and (max-width: 720px) {
+    div.block-win {
+        width: 100% !important;
+        padding: 30px;
+    }
+
+    label,
+    .select-wrapper,
+    .block-win input {
+        min-width: 90%;
+    }
+
+    .block-win input.button1 {
+        min-width: auto;
+        margin: 0xp !important;
+        margin-left: 10% !important;
+    }
+
+}

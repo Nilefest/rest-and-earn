@@ -1,0 +1,334 @@
+.header-text {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+h2.title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 70px 0px 60px 0px;
+    font-weight: 700;
+}
+
+.row > span.title {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+/* ------- REG-LOG-NOPASS windows ---------------------- */
+
+.nopass_win {
+    margin: auto;
+    width: 45%;
+}
+
+.block-win .title {
+    margin: 30px 80px 0px 80px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 5px 85px 5px 85px;
+}
+
+.block-win a,
+.block-win span.nopass {
+    text-decoration: underline;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    color: #082957;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all .3s;
+}
+
+.block-win a:hover {
+    color: #5988ca;
+    transition: all .2s;
+}
+
+.block-win .log-in,
+.block-win .reg-in {
+    padding: 15px 0px 10px 0px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 50px 15px 0px 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.block-win .log-in span,
+.block-win .reg-in span {
+    font-size: 13px;
+}
+
+.block-win .log-in:hover b,
+.block-win .reg-in:hover b {
+    color: #5988ca;
+    text-decoration: underline;
+    transition: all .2s;
+}
+
+span.nopass {
+    cursor: pointer;
+}
+
+.nopass_win strong.title {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.nopass_win span.about {
+    width: 75%;
+    text-align: justify;
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+/* ------------------ PANEL_1 ------------------------- */
+.pane1-img {
+    width: 30%;
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 0px 34%;
+}
+
+.pane1-block {
+    height: 250px;
+    width: 96%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 25px 2%;
+    border-radius: 20px;
+    padding: 5%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pane1-block h3 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.pane1-block span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* ------------------- COOP-CL ------------------------ */
+.coop-cl {
+    position: relative;
+}
+
+.coop-cl ul {
+    padding: 0px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.coop-cl ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.coop-cl ul li img {
+    float: left;
+    width: 5%;
+    margin: 5px 20px;
+}
+
+.coop-cl ul li span {
+    ;
+    width: 85%;
+    float: left;
+    text-align: justify;
+}
+
+.coop-cl .block-win {
+    padding: 35px 30px;
+    border-radius: 20px;
+}
+
+.coop-cl .block-win .title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.coop-cl .block-win .button {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.coop-cl .recom {
+    position: absolute;
+    bottom: 0px;
+    font-size: 13px;
+    color: #fff;
+    padding: 30px;
+}
+
+.coop-cl .recom ol {
+    padding-left: 13px;
+}
+
+/* ------------------- CALLBACK ----------------------- */
+.callback {
+    width: 100%;
+    padding: 35px 0px 20px 25%;
+}
+
+.callback:last-child {
+    margin-top: -50px;
+}
+
+.callback input[type="text"] {
+    margin: 5px 0px 5px 85px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 20px 0px 0px 20px;
+    padding: 7px 17px;
+    height: 35px;
+}
+
+.callback input[type="submit"] {
+    margin: 5px 85px 5px -4px;
+    font-size: 14px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    padding: 7px 17px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    background: #f5aa18;
+    background: -webkit-linear-gradient(to right, #f5aa18, #f7337d);
+    background: -o-linear-gradient(to right, #f5aa18, #f7337d);
+    background: linear-gradient(to right, #f5aa18, #f7337d);
+    transition: all .3s;
+    height: 35px;
+}
+
+.callback input[type="submit"]:hover {
+    background: #5988ca;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+/* ------------------- COOP-REST ---------------------- */
+.coop-rest h2.title {
+    color: #082957;
+    font-size: 30px;
+}
+
+.coop-rest span.title {
+    font-size: 35px;
+}
+
+.coop-rest ul {
+    padding: 0px;
+    width: 85%;
+}
+
+.coop-rest li {
+    margin: 35px 10px;
+    list-style: none;
+}
+
+.coop-rest li img {
+    float: left;
+    width: 20%;
+    margin: 0px 5%;
+}
+
+.coop-rest li span {
+    width: 70%;
+    text-align: justify;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+}
+
+.reg-log-win2 {
+    display: none;
+}
+
+.reg-log-win2 .col-12 {
+    margin-top: 20px;
+}
+
+.img_sec2 {
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+
+    .block-win .title {
+        margin: 20px 15px 0px 15px;
+        padding: 10px 0px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        margin: 5px 35px;
+    }
+
+    a.button1,
+    input[type="button"].button1,
+    input[type="submit"].button1 {
+        margin: 5px 35px !important;
+    }
+
+    span.about {
+        font-size: 15px !important;
+    }
+
+    .callback input[type="text"],
+    .callback input[type="submit"].button1 {
+        margin: 0px;
+        border-radius: 15px;
+    }
+
+    .coop-cl .recom {
+        top: 175px;
+    }
+
+    .img_sec {
+        display: none;
+    }
+
+    .img_sec2 {
+        display: block;
+    }
+
+    footer a.button2 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 650px) {
+
+    .reg-log-win {
+        display: none;
+    }
+
+    .reg-log-win2 {
+        display: block;
+    }
+
+}
