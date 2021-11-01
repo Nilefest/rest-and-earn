@@ -17,37 +17,37 @@ $config = array(
     'keywords' => 'cashback, restoran',
         
     // Текущий URL-страницы.
-    'url' => 'http://www.rest-and-earn.top/',
+    'url' => 'http://site.top/',
     
     // Тип подключения к MySQL (mysql, mysqli, pdo ...).
     'db_type' => 'pdo',
     
     // Хост БД.
-    'db_hostname' => 'restan02.mysql.tools',
+    'db_hostname' => 'host',
     
     // Порт БД.
     'db_port' => 3306,
     
     // Имя пользователя СУБД.
-    'db_username' => 'restan02_db',
+    'db_username' => 'root',
     
     // Пароль пользователя СУБД.
-    'db_password' => 'ACTrbACw',
+    'db_password' => 'root',
     
     // Название БД.          
-    'db_database' => 'restan02_db',
+    'db_database' => 'dbname',
     
     // E-Mail отправителя.
-    'mail_host' => 'mail.adm.tools',
+    'mail_host' => 'host',
     
     // E-Mail отправителя.
     'mail_port' => '25',
     
     // E-Mail отправителя.
-    'mail_from' => 'support@rest-and-earn.top',
+    'mail_from' => 'mail@mail.top',
     
     // Пароль E-Mail`a отправителя.
-    'mail_password' => '7Hry784ojVDO',
+    'mail_password' => 'pass',
     
     // Имя отправителя.
     'mail_sender' => 'R&E Support',
